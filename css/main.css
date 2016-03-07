@@ -1,0 +1,381 @@
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+body {
+ 
+     font-size: 12px;
+     font-family: 'Jura', sans-serif;
+     margin: 0;
+     border: 0;
+     padding: 0;
+     height: 100%;
+     width: 100%;
+     
+} 	
+  	
+.img {
+	display: inline-block;
+	background: url(../img/nyc.jpg) no-repeat; 
+	width:100%;
+	/*background-size: ;*/
+  	margin: 0;
+  	height: 100vh;
+  	color: white;
+  	max-width: 100%;
+  	background-position: center;
+  	/*background-size: all;*/
+}
+
+.img:hover {
+
+	background: url(../img/nyccolor.jpg) no-repeat;
+	display: inline-block;
+	width:100%;
+	background-size: 100%;
+  	margin: 0;
+  	height: 65em;
+  	color: white;
+  	max-width: 100%;
+  	background-position: center;
+  	background-size: all;
+}
+
+.container1 {
+	display: inline-block;
+	background-color: white;
+	width: 100%;
+	margin: 0;
+	max-width: 100%;
+}
+
+.container1 p {
+	display: inline-block;
+	font-size: 2em;
+	text-align: center;
+	width: 100%;
+	padding-top: 2%;
+}
+
+.container2 {
+	display:inline-block;
+	width: 100%;
+	height: 40em;
+	padding-bottom: 5%;
+}
+
+.container3 {
+	display: inline-block;
+	background-color: #99A1A3;
+	width: 100%;
+	height: 40em;
+	background: #C8CBCC;
+	background: url(../img/cash.jpg) no-repeat;
+	background-size: 100%;
+	background-size: contain;
+	background-position: left;	
+}
+
+.container3 h2 {
+
+	text-align: right;
+	padding-right: 15%;
+}
+
+
+.budget {
+
+	display: inline-block;
+	max-width: 100%;
+	max-height: 20em;
+	width: 100%;
+	text-align: right;
+	padding-right: 5%;	
+}
+
+img[alt="calc"] {
+	
+	float: right;
+	padding-right: 5%;
+	padding-left: 5%;
+	
+}
+
+img[alt="money"] {
+	
+	float: right;
+
+}
+
+img[alt="wallet"] {
+	float: right;
+	
+
+}
+
+.container4 h2 {
+	padding-bottom: 3%;
+	padding-top: 3%;
+	background: white;
+	color: black;
+}
+
+.container4 p {
+
+	display: inline-block;
+	font-size: 2em;
+	text-align: center;
+	font-weight: 500;
+	width: 100%;
+	height: 100%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	font-color: black;
+	margin: 0;
+}
+
+
+.container4 {
+	display: inline-block;
+	background-color: white;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	background-color: white;
+}
+
+.brisbane {
+	display: inline-block;
+	width: 100%;
+	max-width: 30%;
+	max-height: 30%;
+	height: 10em;
+	float: left;
+	background: url(../img/brisbane.jpg) no-repeat;
+	background-size: 100%;
+  	margin: 0;
+  	color: white;
+  	overflow: hidden;
+  	clear: both;
+  	text-align: center;
+  	font-size: 2em;
+  	opacity: 0.8;  
+}
+
+.brisbane:hover {
+	display: inline-block;
+	width: 100%;
+	max-width: 30%;
+	max-height: 30%;
+	height: 10em;
+	float: left;
+	background: url(../img/brisbanecolor.jpg) no-repeat;
+	background-size: 100%;
+  	margin: 0;
+  	color: white;
+  	overflow: hidden;
+  	clear: both;
+  	text-align: center;
+  	font-size: 2em;
+  	opacity: 1; 
+}
+
+.sydney {
+	display: inline-block;
+	width: 100%;
+	max-width: 30%;
+	max-height: 30%;
+	height: 10em;
+	background: url(../img/sydney.jpg) no-repeat;
+	background-size: 100%;
+  	margin: 0;
+  	color: white;
+  	margin: 0 0 0 5%;
+  	text-align: center;
+  	font-size: 2em;
+  	opacity: 0.8;
+}
+
+.sydney:hover {
+	opacity: 1;
+	cursor: pointer;
+	display: inline-block;
+	width: 100%;
+	max-width: 30%;
+	max-height: 30%;
+	height: 10em;
+	background: url(../img/sydneycolor.jpg) no-repeat;
+	background-size: 100%;
+  	margin: 0;
+  	color: white;
+  	margin: 0 0 0 5%;
+  	text-align: center;
+  	font-size: 2em;
+}
+
+.melbourne {
+
+	display: inline-block;
+	width: 100%;
+	max-width: 30%;
+	max-height: 30%;
+	height: 10em;
+	float: right;
+	background: url(../img/melbourne.jpg) no-repeat;
+	background-size: 100%;
+  	margin: 0 0 0 0;
+  	color: white;
+  	text-align: center;
+  	font-size: 2em;
+  	opacity: 0.8;
+}
+
+.melbourne:hover {
+	opacity: 1;
+	cursor: pointer;
+	display: inline-block;
+	width: 100%;
+	max-width: 30%;
+	max-height: 30%;
+	height: 10em;
+	float: right;
+	background: url(../img/melbournecolor.jpg) no-repeat;
+	background-size: 100%;
+  	margin: 0 0 0 0;
+  	color: white;
+  	text-align: center;
+  	font-size: 2em;
+}
+
+nav {
+
+	display: inline-block;
+	width: 100%;
+	word-spacing: 8em;
+	text-align: center;
+}
+
+
+nav img {
+	opacity: 1
+}
+
+
+
+img:hover {
+	opacity: 0.2;
+	cursor: pointer;
+}
+
+blockquote {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	font-size: 2em;
+	word-spacing: 0;
+	padding-top: 4%;
+	padding-bottom: 5%;
+	margin: 0;
+	font-weight: 600;
+}
+
+
+h1 {
+  display: inline-block;	
+  font-size: 3em;
+  margin: 0;
+  text-align: center;
+  padding-top: 3em;
+  word-spacing: 3em;
+  width: 100%;
+}
+
+
+
+
+h2 {
+
+	display: inline-block;
+	font-size: 5em;
+	text-align: center;
+	width: 100%;
+	margin: 0;
+	padding-top: 2%;
+	padding-bottom: 3%;
+}
+
+h3 {
+
+	display: inline-block;
+	font-size: 2em;
+
+}
+
+footer {
+	width: 100%;
+	display: inline-block;
+	height: 20em;
+	font-size: 1.5em;
+	font-weight: 600;
+	color: black;
+	background-color: white;
+	margin: 0;
+	position: relative;
+
+}
+
+.privacy p {
+
+	max-height: 50%;
+	max-width: 50%;
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	font-weight: 600;
+	color: black;
+	background-color: white;
+	margin: 0;
+	font-size: 1em;
+	position: absolute;
+	left: 25%;
+	bottom: 10%;
+}
+
+footer img {
+	display:inline-block;
+	max-width: 40%;
+	max-height: 40%;
+	position: right;
+	text-align: left;
+	position: absolute;
+	right: 8%;
+	bottom: 10%;
+}
+
+
+
+
