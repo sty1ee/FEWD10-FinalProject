@@ -42,13 +42,12 @@ body {
 	display: inline-block;
 	background: url(../img/nyc.jpg) no-repeat; 
 	width:100%;
-	/*background-size: ;*/
   	margin: 0;
   	height: 100vh;
   	color: white;
   	max-width: 100%;
   	background-position: center;
-  	/*background-size: all;*/
+  	
 }
 
 .img:hover {
@@ -56,13 +55,12 @@ body {
 	background: url(../img/nyccolor.jpg) no-repeat;
 	display: inline-block;
 	width:100%;
-	background-size: 100%;
   	margin: 0;
-  	height: 65em;
+  	height: 100vh;
   	color: white;
   	max-width: 100%;
   	background-position: center;
-  	background-size: all;
+  	
 }
 
 .container1 {
@@ -111,28 +109,28 @@ body {
 
 	display: inline-block;
 	max-width: 100%;
-	max-height: 20em;
+	max-height: 20vh;
 	width: 100%;
-	text-align: right;
-	padding-right: 5%;	
+	text-align: right;	
 }
 
 img[alt="calc"] {
 	
 	float: right;
-	padding-right: 5%;
-	padding-left: 5%;
+	padding-right: 1%;
 	
 }
 
 img[alt="money"] {
 	
 	float: right;
+	padding-right: 1%;
 
 }
 
 img[alt="wallet"] {
 	float: right;
+	padding-right: 1%;
 	
 
 }
@@ -275,7 +273,7 @@ nav {
 
 	display: inline-block;
 	width: 100%;
-	word-spacing: 8em;
+	word-spacing: 2em;
 	text-align: center;
 }
 
