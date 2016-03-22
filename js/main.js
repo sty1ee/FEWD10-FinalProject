@@ -26,13 +26,43 @@ $(document).ready(function () {
 	
 	//Click event to scroll to top
 	$('.goback').click(function(){
-		$history.back();
+		history.back();
 		return false;
-	
 
-});
+		});
 
+
+        $("a#educatewp").click(function(){
+            $('html,body').animate({
+                scrollTop: $('.container2').offset().top
+            }, 1200);
+
+            return false;
+
+            });
+
+        $("a#budgetwp").click(function(){
+            $('html,body').animate({
+                scrollTop: $('.container3').offset().top
+            }, 1200);
+
+            return false;
+
+            });
+            
+        $("a#executewp").click(function(){
+            $('html,body').animate({
+                scrollTop: $('.container4').offset().top
+            }, 1200);
+
+            return false;        
+       
 	});
+
+        });
+
+
+		
 
 
 

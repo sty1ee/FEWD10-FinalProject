@@ -61,13 +61,68 @@ header {
 	 
 }
 
+ul li {
+	display: inline;
+	padding: 0;
+	margin: 0;
+	word-spacing: 0;
+	background-color: grey;
+}
+
+.educatenav {
+	display: none;
+}
+
+.executenav {
+	display: none;
+}
+
+#educatewp  {
+	font-size: 3em;
+	padding-right: 1%;
+	position: absolute;
+	right: 25%;
+	top: 7%;
+}
+
+#budgetwp {
+	font-size: 3em;
+	padding-right: 1%;
+	position: absolute;
+	left: 40%;
+	top: 7%;
+}
+
+#executewp {
+	font-size: 3em;
+	position: absolute;
+	left: 20%;
+	top: 7%;
+}
+
+form {
+
+	width: 100%;
+    padding: 1em 1em;
+    margin: 2em 0;
+    box-sizing: border-box;
+}
+
+input[type=text] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+form 
 .container1 {
 	display: inline-block;
 	background-color: white;
 	width: 100%;
 	margin: 0;
 	max-width: 100%;
-	height: 91%;
+	height: 100%;
 	text-decoration: none;
 }
 
@@ -100,32 +155,38 @@ header {
 	width: 100%;
 	height: 100%;
 	padding-bottom: 5%;
+	padding-top: 10%;
 }
 
 .container2 h2 {
 
 	padding-top: 0;
+	font-size: 4em;
+	padding-top: 25%;
 }
 
 .container3 {
 	display: inline-block;
 	background-color: #99A1A3;
 	width: 100%;
-	height: 40em;
+	height: 45em;
 	background: #C8CBCC;
 	background: url(../img/cash.jpg) no-repeat;
 	background-size: 100%;
-	background-size: contain;
-	background-position: center;
+	background-position: bottom;
 	position: relative;	
-	clear: both;
+	clear:both;
+	min-height: 45em;
 }
 
 .container3 h2 {
 
 	text-align: center;
-	color: white;
-	padding-top: 3%;
+	color: black;
+	font-size: 4em;
+	position: absolute;
+	top: 1%;
+	padding: 0;
 	
 }
 
@@ -143,8 +204,10 @@ header {
 	padding: 0;
 	background: white;
 	color: black;
-	padding-top: 6%;
+	padding-top: 8%;
 	padding-bottom: 3%;
+	font-size: 4em;
+	text-align: center;
 
 }
 
@@ -156,15 +219,17 @@ header {
 	font-weight: 500;
 	width: 100%;
 	height: 100%;
-	padding-top: 2%;
+	padding-top: 1%;
 	padding-bottom: 5%;
 	font-color: black;
 	margin: 0;
+
 }
 
 
 
 .brisbane {
+	position: relative;
 	
 	height: 10em;
 	width: 100%;
@@ -191,6 +256,16 @@ header {
 
 	display: inline-block;
 	z-index: 999;
+	font-size: 1.4em;
+}
+
+.brisbane a {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	cursor: pointer;
 }
 
 
@@ -264,11 +339,23 @@ header {
 
 	display: inline-block;
 	z-index: 999;
+	font-size: 1.4em;
 
 }
 
+.sydney a {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	cursor: pointer;
+}
+
+
 
 .sydneycolor {
+
 	
 	width: 100%;
 	max-width: 30%;
@@ -454,6 +541,9 @@ header {
 	color: white;
 }
 
+
+
+
 .melbwp1 {
 
 	display: block;
@@ -581,7 +671,7 @@ header {
 
   30% {
     -webkit-transform: translateX(3px) rotate(2deg);
-    transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);f
   }
 
   40% {
@@ -783,7 +873,17 @@ header {
 
 	display: inline-block;
 	z-index: 999;
+	font-size: 1.4em;
 
+}
+
+.melbourne a {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	cursor: pointer;
 }
 
 
@@ -829,19 +929,13 @@ header {
 
 }
 
-nav {
+.container2 nav {
 
 	display: inline-block;
 	width: 100%;
 	word-spacing: 8em;
 	text-align: center;
 }
-
-
-nav img {
-	opacity: 1;
-}
-
 
 
 img:hover {
@@ -865,11 +959,11 @@ blockquote {
 
 h1 {
   display: inline-block;	
-  font-size: 4em;
+  font-size: 2em;
   margin: 0;
   text-align: center;
-  padding-top: 3%;
-  word-spacing: 3em;
+  position: absolute;
+  top: 20%;
   width: 100%;
 
 }
@@ -914,17 +1008,6 @@ a:active {
     display: block;
 }
 
-header  nav {
-
-	display: inline-block;
-	width: 100%;
-	word-spacing: 1em;
-	text-align: center;
-	text-decoration: none;
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
 
 .dropdown li {
 
@@ -944,7 +1027,7 @@ ul {
 h2 {
 
 	display: inline-block;
-	font-size: 5em;
+	font-size: 3em;
 	text-align: center;
 	width: 100%;
 	margin: 0;
@@ -952,29 +1035,18 @@ h2 {
 	padding-bottom: 6%;
 }
 
-h3 {
 
-	display: inline-block;
-	font-size: 2em;
-
-}
-
-h4 {
-	font-size: 2em;
-	font-weight: 100;
-}
 
 footer {
 	width: 100%;
-	display: inline-block;
-	height: 30%;
-	max-height: 30%;
+	display: inline-block;	
 	font-size: 1.2em;
 	font-weight: 600;
 	color: black;
 	background-color: white;
 	margin: 0;
 	position: relative;
+	padding-top: 15%;
 
 }
 
@@ -1107,6 +1179,9 @@ footer img {
 	padding-right: 2%;
 }
 
+.richdad h2 {
+	font-size: 2em;
+}
 .guide {
 	display: inline-block;
 	width: 100%;
@@ -1122,6 +1197,10 @@ footer img {
 .guide img {
 	float: right;
 	padding-left: 5%;
+}
+
+.guide h2 {
+	font-size: 2em;
 }
 
 .babylon {
@@ -1333,7 +1412,7 @@ footer img {
 	background: url(../img/matrixgrey.jpg) no-repeat; 
 	width:100%;
   	margin: 0;
-  	height: 85%;
+  	height: 82%;
   	color: black;
   	background-position: center;
   	text-align: center;
@@ -1342,9 +1421,9 @@ footer img {
  }
 
 
-.website2 h3 {
+.website2 h1 {
 	
-	left: 28%;
+	left: 30%;
 	top: 40%;
 	font-size: 5em;
 	margin: 0;
@@ -1352,6 +1431,9 @@ footer img {
 	color: white;
 	background-color: #333333;
 	opacity: 0.9;
+	word-spacing: 0;	
+	max-width: 20%;
+	padding: 0;
 }
 
 .website3 {
@@ -1362,6 +1444,13 @@ footer img {
 	right: 24%;
 	left: 24%;
 	margin: 0;
+}
+
+.website3 h2 {
+
+	font-size: 1.5em;
+	padding: 0;
+
 }
 
 .website4 p {
@@ -1381,7 +1470,7 @@ footer img {
 	display: inline-block;
 	width: 100%;
 	margin: 0;
-	text-align: left;
+	text-align: center;
 	font-size: 1.7em;
 	padding-top: 8%;
 	padding-bottom: 8%;
@@ -1432,7 +1521,7 @@ footer img {
 	display: inline-block;
 	width: 100%;
 	margin: 0;
-	text-align: left;
+	text-align: center;
 	padding-top: 8%;
 	padding-bottom: 8%;
 	font-size: 1.5em;
@@ -1458,14 +1547,14 @@ footer img {
 	text-align: center;
 	padding-top: 8%;
 	padding-bottom: 8%;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	line-height: 1.5em;
 }
 
 .real img {
 
 	float: right;
-	padding-left: 5%;
+	padding-left: 2%;
 }
 
 .sqm {
@@ -1505,7 +1594,7 @@ footer img {
 	background-color: black;
 	text-decoration: none;
 	position: fixed;
-	top:85.5%;
+	top:84.5%;
 	right:1%;
 	background: url('../img/goback.png') no-repeat;
 	background-size: 100%;
@@ -1813,10 +1902,11 @@ footer img {
 
 h1 {
   display: inline-block;	
-  font-size: 2em;
+  font-size: 5em;
   margin: 0;
   text-align: center;
-  padding-top: 10%;
+  position: absolute;
+  top: 30%;
   word-spacing: 0.5em;
   width: 100%;
 
@@ -1844,11 +1934,10 @@ h1 {
 
 .container1 p {
 	display: inline-block;
-	font-size: 1.5em;
+	font-size: 1.4em;
 	text-align: center;
 	width: 100%;
 	padding-top: 2%;
-	height: 91%;
 	margin: 0;
 	max-width: 100%;
 }
@@ -1870,20 +1959,22 @@ h1 {
 	display: inline-block;
 	background-color: #99A1A3;
 	width: 100%;
-	height: 30em;
+	height: 40em;
 	background: #C8CBCC;
 	background: url(../img/cash.jpg) no-repeat;
 	background-size: cover;
 	max-width: 100%;	
 	clear: both;
+	padding-top: 20%;
 }
 
 .container3 h2 {
 
 	text-align: center;
 	color: white;
-	padding-top: 3%;
-	font-size: 4em;
+	padding-top: 8%;
+	padding-bottom: 8%;
+	font-size: 5em;
 	
 }
 
@@ -1915,8 +2006,8 @@ h1 {
 	font-weight: 600;
 	width: 100%;
 	height: 100%;
-	padding-top: 2%;
-	padding-bottom: 5%;
+	padding-top: 1%;
+	padding-bottom: 1%;
 	font-color: black;
 	margin: 0;
 }
@@ -1944,17 +2035,6 @@ blockquote {
 }
 
 
-.brisbane p {
-	font-size: 1.4em;
-}
-
-.sydney p {
-	font-size: 1.4em;
-}
-
-.melbourne p {
-	font-size: 1.4em;
-}
 
 
 .scrollToTop{
